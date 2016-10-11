@@ -79,7 +79,7 @@
                 </div>
                 <div class="row centered">
                     <div class="col-md-4">
-                        <i class="fa fa-list-alt"></i>
+                        <i class="fa fa-line-chart"></i>
                         <h4>SEO</h4>
                         <p class="leftp">Potential customers and clients are already searching for products and services that your company offers. We will optimize your website so that it gets found. Formal keyword research research is the foundational piece in SEO that will help in understanding what people are searching for, how frequently they do it and which of those keywords are relevant to your business and how competitive those terms will be to try rank for.</p>
                     </div>
@@ -90,14 +90,14 @@
                     </div>
                      
                      <div class="col-md-4">
-                         <i class="fa fa-code"></i>
+                         <i class="fa fa-qrcode"></i>
                         <h4>PPC</h4>
                         <p class="leftp">Well organized paid search campaign connects potential customers with your business when they are ready to buy. We will develop targeted ads that will bring ready to buy traffic to your website. This will increase your leads, calls and result in more sales.</p>
                     </div>
                 </div>
                 <div class="row centered service">
                     <div class="col-md-4">
-                         <i class="fa fa-edit"></i>
+                         <i class="fa fa-search-plus"></i>
                         <h4>Content Marketing</h4>
                         <p class="leftp">Content marketing is very essential to online marketing. We will leverage your current content to create more informed and engaged customer. This will help build your brand and educate potential customers about your mission statement.</p>
                     </div>
