@@ -318,6 +318,9 @@ h3{
     color: #f7ab24;
 }
 
+.leftp{
+    text-align: justify;
+}
 @media only screen and (max-width: 400px){
     .img, .number{
         height: 48em;
