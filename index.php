@@ -80,35 +80,36 @@
                 <div class="row centered">
                     <div class="col-md-4">
                         <i class="fa fa-list-alt"></i>
+                        <h4>SEO</h4>
+                        <p class="leftp">Potential customers and clients are already searching for products and services that your company offers. We will optimize your website so that it gets found. Formal keyword research research is the foundational piece in SEO that will help in understanding what people are searching for, how frequently they do it and which of those keywords are relevant to your business and how competitive those terms will be to try rank for.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fa fa-list-alt"></i>
                         <h4>Responsive Design</h4>
-                        <p>I have a lot of experience in designing websites that are responsive. You can view these websites on wide range of devices with good viewing and interaction experience.</p>
+                        <p class="leftp">Responsive Sites Improve SEO Rankings. Responsive development is Google's recommended approach for mobile web design. Per Google, responsive websites will perform better in search rankings because they provide a better user experience than sites that are not mobile friendly. We can convert your current design to responsive design or make a new one for you.</p>
                     </div>
-                     <div class="col-md-4">
-                         <i class="fa fa-edit"></i>
-                        <h4>Javascript Programming</h4>
-                        <p>If you have a project that requires complicated javascript programming then I can help you with that. I am very proficient in native javascript and have strong knowledge of jQuery as well.</p>
-                    </div>
+                     
                      <div class="col-md-4">
                          <i class="fa fa-code"></i>
-                        <h4>PHP Programming</h4>
-                        <p>I am very knowledgeable in PHP. I also have good understanding of Symfony(MVC framework). I also have a lot of experience working with MySQL as well.</p>
+                        <h4>PPC</h4>
+                        <p class="leftp">Well organized paid search campaign connects potential customers with your business when they are ready to buy. We will develop targeted ads that will bring ready to buy traffic to your website. This will increase your leads, calls and result in more sales.</p>
                     </div>
                 </div>
                 <div class="row centered service">
                     <div class="col-md-4">
-                        <i class="fa fa-list-alt"></i>
-                        <h4>Responsive Design</h4>
-                        <p>I have a lot of experience in designing websites that are responsive. You can view these websites on wide range of devices with good viewing and interaction experience.</p>
+                         <i class="fa fa-edit"></i>
+                        <h4>Content Marketing</h4>
+                        <p class="leftp">Content marketing is very essential to online marketing. We will leverage your current content to create more informed and engaged customer. This will help build your brand and educate potential customers about your mission statement.</p>
                     </div>
                      <div class="col-md-4">
                          <i class="fa fa-edit"></i>
-                        <h4>Javascript Programming</h4>
-                        <p>If you have a project that requires complicated javascript programming then I can help you with that. I am very proficient in native javascript and have strong knowledge of jQuery as well.</p>
+                        <h4>Custom Programming</h4>
+                        <p class="leftp">Custom programming is a collaborative effort with our clients. We understand each project is unique. Our team is very talented in Javascript, PHP and whole LAMP stack. We can provide you with a reliable, customized and user friendly web solution.</p>
                     </div>
                      <div class="col-md-4">
                          <i class="fa fa-code"></i>
-                        <h4>PHP Programming</h4>
-                        <p>I am very knowledgeable in PHP. I also have good understanding of Symfony(MVC framework). I also have a lot of experience working with MySQL as well.</p>
+                        <h4>Webspeed/Progress Programming</h4>
+                        <p class="leftp">WebSpeed is used to manipulate, customize, and automate facilities for web-based applications. We can help you with your Progress WebSpeed projects. Not only that we can also help you with SS7 and sigtran programming as well.</p>
                     </div>
                 </div>
                 
@@ -128,8 +129,8 @@
                        <img class="img-circle" src="images/pic.jpg" width="125" height="125" alt=""> 
                     </div>
                     <div class="about col-md-6">
-                        <h4>Hi, my name is Navdeep Sarai & I am a <b>web developer</b>.
-                        I am a highly resourceful, innovative and competent programmer with more than 3 years experience in <b>HTML</b>, <b>CSS</b>, <b>Javascript</b> and <b>PHP</b>.</h4> 
+                        <p class="leftp">My name is Navdeep Sarai and I work as SEO/web consultant. I have Masters degree in Electronics and communications Engineering and have worked as a programmer for many years in telecom sector. Before I became a web consultant I used to work at Ericsson and managed a lot of projects for different telecom providers.</p>
+                        <p class="leftp">Few years back I branched into web programming and internet marketing sector. I have mostly focused on helping organizations with their internet marketing needs. This included designing websites that are not only responsive but are search engine friendly as well. During this time I have kept up with various changes to search engine algorithms and have designed software that keeps track of those changes automatically. I have also designed applications that analyze websites for structural flaws and also do competitive analysis, thus automating these very time consuming tasks. That is why I am able to deliver results in a shorter time frame as compared to other companies. </p>
                     </div>
                 </div>
             </div>

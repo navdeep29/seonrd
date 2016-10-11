@@ -306,6 +306,9 @@ h3{
 .dot:hover {
   background-color: #717171;
 }
+.leftp{
+    text-align: justify;
+}
 @media only screen and (max-width: 400px){
     .img, .number{
         height: 48em;
