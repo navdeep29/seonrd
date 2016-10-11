@@ -8,7 +8,7 @@ font-size: 16px;
 }
 html, body{
     width:100%;
-    
+    overflow-x: hidden; 
 }
 .logo i{
 font-size:40px;
@@ -76,7 +76,7 @@ color:#000;
 .img{
   background-size: cover;
   position:absolute;
-  height:650px;
+  height:40.625em;
   background-position: center center;
   position:absolute;
   left:0;
@@ -305,4 +305,12 @@ h3{
 
 .dot:hover {
   background-color: #717171;
+}
+@media only screen and (max-width: 400px){
+    .img, .number{
+        height: 48em;
+    }
+    .seo,.rd,.sd{
+        padding-top: 6em;
+    }
 }
