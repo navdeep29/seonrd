@@ -35,6 +35,51 @@
             <h2>Thank you. we will contact you shortly.</h2>
       
         </div>
+        
+           <div class="content2" id="services-section">
+            <div class="container">
+                <div class="row centered col-md-12">
+                    <h3>SERVICES</h3> 
+                </div>
+                <div class="row centered">
+                    <div class="col-sm-4">
+                        <i class="fa fa-line-chart"></i>
+                        <h4>SEO</h4>
+                        <p class="leftp">Potential customers and clients are already searching for products and services that your company offers. We will optimize your website so that it gets found. Formal keyword research research is the foundational piece in SEO that will help in understanding what people are searching for, how frequently they do it and which of those keywords are relevant to your business and how competitive those terms will be to try rank for.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <i class="fa fa-list-alt"></i>
+                        <h4>Responsive Design</h4>
+                        <p class="leftp">Responsive Sites Improve SEO Rankings. Responsive development is Google's recommended approach for mobile web design. Per Google, responsive websites will perform better in search rankings because they provide a better user experience than sites that are not mobile friendly. We can convert your current design to responsive design or make a new one for you.</p>
+                    </div>
+                     
+                     <div class="col-sm-4">
+                         <i class="fa fa-qrcode"></i>
+                        <h4>PPC</h4>
+                        <p class="leftp">Well organized paid search campaign connects potential customers with your business when they are ready to buy. We will develop targeted ads that will bring ready to buy traffic to your website. This will increase your leads, calls and result in more sales.</p>
+                    </div>
+                </div>
+                <div class="row centered service">
+                    <div class="col-sm-4">
+                         <i class="fa fa-search-plus"></i>
+                        <h4>Content Marketing</h4>
+                        <p class="leftp">Content marketing is very essential to online marketing. We will leverage your current content to create more informed and engaged customer. This will help build your brand and educate potential customers about your mission statement.</p>
+                    </div>
+                     <div class="col-sm-4">
+                         <i class="fa fa-edit"></i>
+                        <h4>Custom Programming</h4>
+                        <p class="leftp">Custom programming is a collaborative effort with our clients. We understand each project is unique. Our team is very talented in Javascript, PHP and whole LAMP stack. We can provide you with a reliable, customized and user friendly web solution.</p>
+                    </div>
+                     <div class="col-sm-4">
+                         <i class="fa fa-code"></i>
+                        <h4>Webspeed/Progress Programming</h4>
+                        <p class="leftp">WebSpeed is used to manipulate, customize, and automate facilities for web-based applications. We can help you with your Progress WebSpeed projects. Not only that we can also help you with SS7 and sigtran programming as well.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div> 
+        
    <footer id="footer">
         <div class="container">
             <div class="row centered">

@@ -310,12 +310,13 @@ h3{
     opacity:1;
 }
 .form{
-    padding-top:90px;
+    padding-top:120px;
 }
 .information{
     padding-top:90px;
     padding-bottom: 30px;
     color: #f7ab24;
+    background-color: #e0e0e0;
 }
 
 .leftp{
