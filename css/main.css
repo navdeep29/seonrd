@@ -216,7 +216,7 @@ h3{
 
 .img1{
      background-color: #000;
-    opacity:0.7;
+    opacity:0.8;
     color:#fff;
     padding:15px;
 }
@@ -231,11 +231,11 @@ h3{
     line-height:28px; 
     font-size: 1.2em;
 }
-.img1 button{
+.img1 .button{
  background-color: #00a8ff;   
  font-size: 1.5em;
  font-weight: bold;
-
+  opacity: 1;
  border-radius: 4px;
  padding:4px;
 }
@@ -243,7 +243,7 @@ h3{
 
 .img2{
      background-color: #000;
-    opacity:0.7;
+    opacity:0.8;
     color:#fff;
     padding:15px;
 }
@@ -257,7 +257,7 @@ h3{
     line-height:28px; 
     font-size: 1.2em;
 }
-.img2 button{
+.img2 .button{
  background-color: #00a8ff;   
  font-size: 1.5em;
  font-weight: bold;
@@ -283,7 +283,7 @@ h3{
     line-height:28px; 
     font-size: 1.2em;
 }
-.img3 button{
+.img3 .button{
  background-color: #00a8ff;   
  font-size: 1.5em;
  font-weight: bold;
@@ -306,6 +306,18 @@ h3{
 .dot:hover {
   background-color: #717171;
 }
+.only{
+    opacity:1;
+}
+.form{
+    padding-top:90px;
+}
+.information{
+    padding-top:90px;
+    padding-bottom: 30px;
+    color: #f7ab24;
+}
+
 @media only screen and (max-width: 400px){
     .img, .number{
         height: 48em;

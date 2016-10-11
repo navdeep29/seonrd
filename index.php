@@ -37,7 +37,7 @@
                         <div class="img1">
                             <h2>Results Driven Search Engine Marketing</h2>
                             <p>We are experts at formulating effective SEO strategies by conducting in-depth keyword research to assure long term benefits. We will help you develop a thorough and organized marketing plan that will increase your website traffic. Sign up for a demo and we will take you through the process. You will get a free SEO analysis report of your website at the end. You will be glad that you signed up for the demo.</p>
-                            <button class="btn btn-primary" type="button">Sign up for demo</button> 
+                            <a class="button btn btn-primary" href="seo.php">Sign up for demo</a> 
                         </div>
                          
                     </div>
@@ -48,7 +48,7 @@
                         <div class="img2">
                             <h2>Responsive Web Design</h2>
                             <p>We can help convert your website so that it responds to the user's behaviour and environment. That way you don't have to break the bank or reinvent the wheel and can serve both mobile and desktop traffic. Ask us for a quote and you won't be disappointed.</p>
-                            <button class="btn btn-primary" type="button">Get a quote</button> 
+                            <a class="button btn btn-primary" href="rd.php">Get a quote</a> 
                         </div>
                         
                     </div>
@@ -58,7 +58,7 @@
                         <div class="img3">
                             <h2>Custom Software Development</h2>
                             <p>If you have a project that requires complicated javascript programming or you want to build an application on LAMP stack then we can help you with that. Our team is very proficient in native javascript and have strong knowledge of jQuery as well. We use Symfony framework and have a lot of experience with MySQL as well. </p>
-                            <button class="btn btn-primary" type="button">Get in Touch</button> 
+                            <a class="button btn btn-primary" href="sd.php">Get in Touch</a> 
                         </div> 
                         
                     </div>
@@ -182,7 +182,7 @@
                         <h4>Send email.</h4>
                           <hr/>
                           <div id="info"></div>
-                          <form action="contact.php" method="post" name="help_form" id="help_form">
+                          <form action="message.php" method="post">
                             <div class="row">
                             <div class="col-md-6"><div class="form-group"><input class="form-control" type="text" name="fullname" placeholder="Name"></div></div>
                             <div class="col-md-6"><div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email Address"></div></div></div>
