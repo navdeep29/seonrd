@@ -1,0 +1,308 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
+body{
+font-family:lato, sans-serif;
+font-weight: 300;
+font-size: 16px;
+}
+html, body{
+    width:100%;
+    
+}
+.logo i{
+font-size:40px;
+}
+.header-container{
+background-color:#000000;
+padding-bottom:15px;
+padding-top:10px;
+opacity:0.8;
+border-bottom: 0;
+margin-bottom: 0;
+}
+.logo{
+color:#999;
+padding-top:5px;
+}
+.icon-bar{
+background-color:#999;
+}
+.active{
+ 
+color:#fff;
+}
+
+.active:hover{
+ 
+color:#f7ab24;
+}
+.active:active{
+ 
+background-color:#f7ab24;
+color:#000;
+}
+.nav li a:focus{
+    background-color: #000;
+     color:#f7ab24;
+}
+ul.into li a{
+color:#fff;
+}
+ul.into  a:hover{
+background-color: #000;
+color:#f7ab24;
+
+}
+ul.into  a:active{
+background-color:#f7ab24;
+color:#000;
+}
+
+.container-fluid{
+    padding: 0;
+    margin:0;
+}
+.imageHiddenAtStart{
+    display:none;
+}
+
+.number {
+    position:relative;
+   height:40.625em;
+ 
+}
+
+.img{
+  background-size: cover;
+  position:absolute;
+  height:650px;
+  background-position: center center;
+  position:absolute;
+  left:0;
+  top:0;
+}
+
+.image1{
+    background-image: url("../images/seo.jpg");
+}
+.image2{
+    background-image: url("../images/responsivedesign.jpg");
+}
+.image3{
+    background-image: url("../images/code.jpg");
+}
+
+.content5{
+     
+    
+    background-image:url("../images/contact.jpg"); 
+    background-size: cover;
+    background-position: center center; 
+    
+}
+.content5i{
+background-color: #feaf1e;
+opacity:0.7;
+ padding-top:35px;
+     padding-bottom:35px;
+     color:#000;
+}
+
+.content5 .color{
+    background-color: #00a8ff;
+    color:#fff;
+}
+.white{
+    color:#fff;
+}
+.centered{
+text-align:center;
+}
+hr{
+display: block;
+border-top: 1px solid #000;
+}
+.clear-both{
+    clear:both;
+}
+#footer {
+  background-color: #212121;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 35px 0;
+}
+.yellow{
+    color: #f7ab24;
+}
+
+.content5 .plane{
+    padding-top:35px;
+}
+
+.content4{
+    padding-top:25px;
+    
+}
+
+a img{
+    opacity:0.5;
+    transition:all 0.8s ease 0s;
+    padding-bottom:55px;
+    
+}
+
+a:hover img{
+    opacity:1;
+}
+
+h3{
+ padding-bottom: 20px;
+    
+ font-family:raleway; 
+ font-weight:700;
+ color:#333;
+}
+   
+
+
+.ubc{
+    width:100px;
+    height:125px;
+}
+.content4 .logo{
+    width:135px;
+    height:135px;
+}
+
+.content3{
+    background-color: #e0e0e0;
+    padding-top:30px;
+    padding-bottom: 55px;
+}
+.black{
+    color:#00a8ff;
+}
+
+.content2{
+    padding-top:30px;
+    padding-bottom: 55px;
+}
+.content2 .service{
+      padding-top:35px;
+} 
+.content2 i{
+    color:#f7ab24;
+    font-size:30px;
+}
+.content2 h4{
+ font-family:raleway; 
+ font-weight:700;
+ color:#333;
+}
+.content2 p{
+    line-height:28px;
+    color:#555;
+}
+.seo{
+    padding-top:12em;
+}
+.rd{
+    padding-top:13.7em;
+}
+.sd{
+    padding-top:12em;
+}
+
+.img1{
+     background-color: #000;
+    opacity:0.7;
+    color:#fff;
+    padding:15px;
+}
+
+.img1 h2{
+   color:rgba(193,215,46,0.9); 
+   font-weight: bold;
+   
+}
+
+.img1 p{
+    line-height:28px; 
+    font-size: 1.2em;
+}
+.img1 button{
+ background-color: #00a8ff;   
+ font-size: 1.5em;
+ font-weight: bold;
+
+ border-radius: 4px;
+ padding:4px;
+}
+
+
+.img2{
+     background-color: #000;
+    opacity:0.7;
+    color:#fff;
+    padding:15px;
+}
+
+.img2 h2{
+   color:#feaf1e; 
+   font-weight: bold;
+}
+
+.img2 p{
+    line-height:28px; 
+    font-size: 1.2em;
+}
+.img2 button{
+ background-color: #00a8ff;   
+ font-size: 1.5em;
+ font-weight: bold;
+
+ border-radius: 4px;
+ padding:4px;
+}
+
+.img3{
+     background-color: #000;
+    opacity:0.8;
+    color:#fff;
+    padding:15px;
+}
+
+.img3 h2{
+   color:#ff0000; 
+   font-weight: bold;
+   
+}
+
+.img3 p{
+    line-height:28px; 
+    font-size: 1.2em;
+}
+.img3 button{
+ background-color: #00a8ff;   
+ font-size: 1.5em;
+ font-weight: bold;
+
+ border-radius: 4px;
+ padding:4px;
+}
+
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+  background-color: #717171;
+}
