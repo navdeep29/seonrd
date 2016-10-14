@@ -8,13 +8,17 @@ if($_SERVER["REQUEST_METHOD"]== "POST") {
         $name = $_POST["fullname"];
         $email = $_POST["email"];
         $message = $_POST["message"];
+        $phone=$_POST["phone"];
+        $description=$_POST["description"];
         
-   $info = "INSERT INTO nsarai(name,email,message) 
-            VALUES('$name', '$email', '$message');";  
+   $info = "INSERT INTO details(name,email,message,phone,description) 
+            VALUES('$name', '$email', '$message','$phone','$description');";  
+   var_dump(info); die();
 mysqli_query($connectionId,$info) or die(mysqli_error($connectionId));  
-echo"Thank you. Your message has been submitted.";
+// echo"Thank you. We will contact you shortly.";
+ header ('Location: message.php');
 }
-$query = "SELECT * FROM nsarai ORDER BY dates;";
+$query = "SELECT * FROM details ORDER BY dates;";
 $result = mysqli_query($connectionId,$query);
 ?>
 

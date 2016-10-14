@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>website</title>
+        <title>Website SEONRD</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
         
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
+        
     </head>
     
     <body>
@@ -32,7 +33,7 @@
         </div>
           <div class="container-fluid">
             <div class="number col-md-12">    
-                <div class="img col-md-12 image1" >
+                <div class="img col-md-12 image1" id="img-1" >
                     <div class="seo col-md-6 col-md-offset-3 centered">
                         <div class="img1">
                             <h2>Results Driven Search Engine Marketing</h2>
@@ -42,8 +43,8 @@
                          
                     </div>
                 </div>
-                <div class="img col-md-12 image2 imageHiddenAtStart" >
-                       
+                <div class="img col-md-12 image2 imageHiddenAtStart" id="img-2">
+                        
                         <div class="rd col-md-6 col-md-offset-3 centered">
                         <div class="img2">
                             <h2>Responsive Web Design</h2>
@@ -53,7 +54,7 @@
                         
                     </div>
                 </div>
-                <div class="img col-md-12 image3 imageHiddenAtStart" >
+                <div class="img col-md-12 image3 imageHiddenAtStart" id="img-3" >
                     <div class="sd col-md-6 col-md-offset-3 centered">
                         <div class="img3">
                             <h2>Custom Software Development</h2>
@@ -63,14 +64,17 @@
                         
                     </div>
                 </div>
-                 <div class="centered bullets">
-                          <span class="dot" onclick="currentSlide(1)"></span>
-                          <span class="dot" onclick="currentSlide(2)"></span>
-                          <span class="dot" onclick="currentSlide(3)"></span>
-                 </div>
+               
+                 <ul class="dots">
+                     <li class="nav-dots">
+                        <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                        <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                        <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                     </li>
+                 </ul>
             </div>
           </div>  
-        
+         
         
         <div class="content2" id="services-section">
             <div class="container">
@@ -183,11 +187,11 @@
                         <h4>Send email.</h4>
                           <hr/>
                           <div id="info"></div>
-                          <form action="message.php" method="post">
+                          <form action="contact.php" method="post"  name="help_form" id="help_form">
                             <div class="row">
                             <div class="col-md-6"><div class="form-group"><input class="form-control" type="text" name="fullname" placeholder="Name"></div></div>
                             <div class="col-md-6"><div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email Address"></div></div></div>
-                             <div class="row"><div class="col-md-12"><div class="form-group"><textarea class="form-control" rows="2" cols="43" name="message" placeholder="Message" id="message"></textarea></div></div>
+                            <div class="row"><div class="col-md-12"><div class="form-group"><textarea class="form-control" rows="2" cols="43" name="message" placeholder="Message" id="message"></textarea></div></div>
                             <div class="col-md-12"><div class="form-group"><input class="btn btn-primary color" type="submit" name="submit_button" value="Submit Request"></div></div></div>
                         </form>
                     </div>
@@ -195,7 +199,7 @@
                 </div> 
             </div>
           </div>
-         </div>  
+         
         <footer id="footer">
         <div class="container">
             <div class="row centered">
@@ -207,7 +211,9 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="./js/bootstrap.min.js"></script> 
     <script src="./js/jquery.scrolly.js"></script>
+   
     <script src="./js/site.js"></script>
+    
     </body>
 </html>
 

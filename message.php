@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>website</title>
+        <title>Website SEONRD</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
@@ -32,7 +32,7 @@
         </div>
         
         <div class="information container centered"> 
-            <h2>Thank you. we will contact you shortly.</h2>
+            <h2>Thank you. We will contact you shortly.</h2>
       
         </div>
         

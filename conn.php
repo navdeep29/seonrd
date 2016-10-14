@@ -1,6 +1,6 @@
 <?php
 $dbhost = 'localhost';
 $dbuser = 'root';
-$dbpass = '';
+$dbpass = 'mannat';
 $db = 'contact';
 

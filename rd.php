@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>website</title>
+        <title>Website SEONRD</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
@@ -32,9 +32,9 @@
         </div>
         
         <div class="form container centered"> 
-        <form action="message.php" method="post">
+        <form action="contact.php" method="post" name="help_form" id="help_form">
                             
-            <div class="form-group"><input class="form-control" type="text" name="fullname" placeholder="Name" required></div>
+           <div class="form-group"><input class="form-control" type="text" name="fullname" placeholder="Name" required></div>
            <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email Address" required></div>
           <div class="form-group"><input class="form-control" type="phone" name="phone" placeholder="Phone" required></div>
           <div class="form-group"><textarea class="form-control" rows="2" cols="43" name="description" placeholder="Description of Project" id="description" required></textarea></div>

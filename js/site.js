@@ -44,15 +44,17 @@ $(window).scroll(function() {
 });
 
 
-var url = "http://192.168.0.19/SEONRD/contact.php";
+var url = "/newseonrd-afterlaunch/contact.php";
 $("#help_form").submit(function(event){
        event.preventDefault();
        var name = $("input[name='fullname']").val();
        var email = $("input[name='email']").val();
        var message = $("#message").val();
+       var phone = $("input[name='phone']").val();
+       var description = $("#description").val();
        $.ajax({
             url: url,
-            data: {"fullname": name, "email": email, "message": message},
+            data: {"fullname": name, "email": email, "message": message, "phone":phone, "description":description},
             type: 'post'
         }).done(function(data){ 
             $("#info").html(data);
@@ -60,12 +62,6 @@ $("#help_form").submit(function(event){
        
        $('#help_form').trigger("reset");
     });
-
-
-var slideIndex = 1;
-function currentSlide(n) {
-  slideIndex = n;
-}
 
 })();
 
